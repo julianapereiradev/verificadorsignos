@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador: Signo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Signo</h1>
+    </header>
+    <section>
+      <div>
+        <p>Dia que nasceu:</p>
+        <input type="number" id="day" min="1" max="31"> 
+        </p>
+
+        <p>Mẽs que nasceu:</p>
+        <input type="number" id="month" min="1" max="12"> 
+        </p>
+
+        <!--<p>Ano que nasceu:</p>
+        <input type="number" id="year"> 
+        </p>-->
+
+        <p>
+          <input type="button" value="Verificar" onclick="check()">
+        </p>
+      </div>
+      <div>
+        <img id="image" src="/question.png" alt="">
+      </div>
+      <div id="res">Preencha os dados acima para ver o resultado!</div>
+    </section>
+    <footer>
+      <p>&copy;JulianaPereiraDEV</p>
+      <a href="https://br.freepik.com/fotos-vetores-gratis/libra"
+        >Libra vetor criado por freepik - br.freepik.com</a
+      >
+    </footer>
+    <script src="model.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  background-image: url(images/background.png);
+  font: normal 15pt;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
