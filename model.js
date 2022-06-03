@@ -1,7 +1,7 @@
 function check() {
   var birthday = document.getElementById("day").value;
   var birmonth = document.getElementById("month").value;
-  var result = "Verifique novamente o dia/mês que você digitou";
+  var result = "";
   var img = document.getElementById("image");
 
   if ((birmonth == 3 && birthday >= 21) || (birmonth == 4 && birthday <= 20)) {
